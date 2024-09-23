@@ -230,19 +230,19 @@ span{
 
 @keyframes words{
     0%, 20%{
-        content: "Developer";
+        content: "Desarrollador";
     }
     21%, 40%{
-        content: "Designer";
+        content: "Diseñador";
     }
     41%, 60%{
-        content: "Musician";
+        content: "Músico";
     }
     61%, 80%{
         content: "Filmmaker";
     }
     81%, 100%{
-        content: "Photographer";
+        content: "Fotógrafo";
     }
 }
 
@@ -271,6 +271,92 @@ span{
         margin-top: 4rem;
     }
 }
+.datos{
+    background-color: black;
+}
+.datos h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
 
+.datos h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.datos h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #b74b4b;
+}
 
+.datos h4{
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
 
+.datos p{
+    font-size: 1.6rem;
+}
+
+.slider-frame {
+    max-width: 100rem;
+    height: auto;
+    margin:50px auto 0;
+    overflow: hidden;
+    margin-bottom: 4rem;
+}
+
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+
+    animation: slide 13s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider-frame img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0;}
+    33% {margin-left: 0;}
+
+    40% {margin-left: -100%;}
+    60% {margin-left: -100%;}
+
+    70% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+}
+.textos{
+    text-align: justify;
+}
+.infoCripto{
+    display: flex;
+    flex-direction: column;
+    column-gap: 4rem;
+}
+.fotoCripto{
+    width: 80rem;
+    height: auto;
+}
+
+.fotoCripto {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    max-width: 80rem; /* Establece un ancho máximo para la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita el espacio extra debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen si hay espacio extra */
+    margin-bottom: 4rem;
+
+}
