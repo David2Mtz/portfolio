@@ -9,7 +9,6 @@
     outline: none;
     font-family: 'Poppins', sans-serif;
 }
-
 html{
     font-size: 62.5%;
 }
@@ -48,7 +47,9 @@ header{
 .logo:hover{
     transform: scale(1.1);
 }
-
+.w-90{
+    width: 90%;
+}
 nav a{
     font-size: 1.8rem;
     color: white;
@@ -127,7 +128,7 @@ span{
 }
 
 .home-content p{
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .home-img{
@@ -300,7 +301,7 @@ span{
 }
 
 .datos p{
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .slider-frame {
